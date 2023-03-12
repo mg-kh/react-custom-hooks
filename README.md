@@ -49,13 +49,16 @@ const App = () => {
 ### useElementIsReveal
 
 ```javascript
+import { useRef } from "react";
 import { useElementIsReveal } from "...";
+
 const App = () => {
-  const { isReveal } = useElementIsReveal();
+  const boxRef = useRef();
+  const { isReveal } = useElementIsReveal({ ref: boxRef });
 
   return (
     <>
-      <div className={`isReveal ? "css-animation-class" : ""`}>
+      <div ref={boxRef} className={`isReveal ? "css-animation-class" : ""`}>
         Animated Box
       </div>
     </>
