@@ -1,5 +1,7 @@
 # React Custom Hooks
 
+Reat Hook collection တွေကို လုပ်ဖို့ အမြဲတွေးနေတာပါ။ ကိုယ်လဲ စရေးလိုက်ရော community မှာက အများကြီးဖြစ်နေပီ။ ဆိုတော့ အခု project ကို npm storage ကိုခြွေတာတဲ့အနေနဲ့ package အဖြစ်မပြောင်းတော့ဘူး။ react-hook-gallery လို့ပဲသဘောထားလိုက်ပီးတော့ စိတ်ထဲပေါ်လာတဲ့ useful ဖြစ်စေမယ့် hook တွေကိုပဲရေးထားလိုက်တော့မယ်။ **react-recipes **လို package မှာလဲ useful ဖြစ်တဲ့ hook တွေအများကြီးပဲ။ အော်ဒါနဲ့ တူတူဝိုင်းရေးလို့လဲရတယ်နော် hook အသစ်လေးတွေပိုများလာတာပေါ့။
+
 ## Avaliable Hooks
 
 1.  usePersistState
